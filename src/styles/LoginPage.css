@@ -1,0 +1,70 @@
+.login-container{
+  display: flex;
+  flex-direction: column;align-items: center;
+  width: 100%;
+  background-color: rgb(52, 2, 91);;
+  height: 678px;
+  height: 100%;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  padding: 30px 20px;
+  margin: 100px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.login-title{
+  margin: 20px 0 30px 0;
+  font-size: 40px;
+  color: white;
+}
+
+.login-form-inp{
+  margin: 10px 10px;
+  width: 340px;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.login-submit-btn{
+  margin: 20px 0;
+  background: rgba(255, 255, 255, 0.2);
+  border: none; 
+  color: white; 
+  padding: 10px 30px; 
+  font-size: 20px; 
+  cursor: pointer;
+  border-radius: 5px; 
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease; 
+  
+}
+
+.login-submit-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+.wrong-login-massage{
+  text-align: center;
+  color: white;
+  font-size: 14;
+  width: 340px;
+  height: 30px;
+}
+
+
+.link-to-signup{
+  color: white;
+  font-size: 15px;
+}

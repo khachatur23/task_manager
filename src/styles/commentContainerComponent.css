@@ -1,0 +1,144 @@
+.infodesk-comment-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .infodesk-comment-div{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .infodesk-comment-inp{
+    width: 350px;
+    height: 100px;
+    outline: none;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    resize: none;
+    padding: 5px ;
+  }
+
+  .user-autocomplete-list{
+    position: absolute;
+    color:white;
+    border:none; 
+  }
+
+  .user-autocomplete-list {
+    position: absolute;
+    top:-145px;
+    background-color: rgb(181, 181, 181);
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 200px;
+    list-style-type: none;
+  }
+  
+  .user-autocomplete-list li {
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+  
+  .user-autocomplete-list li.selected {
+    background-color:rgba(0, 0, 0, 0.3)
+  }
+
+  
+  .comment_title{
+    font-size: 18px;
+    font-weight:800;
+    font-family: sans-serif; 
+    color: rgba(86, 29, 129);
+  }
+
+  .username{
+    color: red;
+  }
+
+  .comment-add-div{
+    margin-bottom:10px;
+    width: 361.5px;
+    border-radius: 5px;
+    display: flex;
+  }
+
+  .infodesk-comment-add-button{
+    padding: 10px 20px;
+    width: 90%;
+    background: white;
+    color: rgb(86,29,129);
+    font-size: 15px;
+    font-weight: 600;
+    border-top: none;
+    border-right:1px solid rgba(128, 128, 128, 0.4); 
+     border-left:1px solid rgba(128, 128, 128, 0.4);
+    border-bottom:1px solid rgba(128, 128, 128, 0.4);
+    cursor: pointer;
+    transition: color 0.3s ease; 
+  }
+
+  .infodesk-disable-comment-add-button{
+    color: rgba(128, 128, 128, 0.4);
+    width: 90%;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: white;
+    border-top: none;
+    border-right:1px solid rgba(128, 128, 128, 0.4); 
+     border-left:1px solid rgba(128, 128, 128, 0.4);
+    border-bottom:1px solid rgba(128, 128, 128, 0.4);
+   
+  }
+
+  .show-emoji-btn{
+    color: rgba(128, 128, 128, 0.4);
+    width: 10%;
+    font-weight:400;
+    font-size: 23px;
+    background: white;
+    border-top: none;
+    border-left:none;
+    border-right:1px solid rgba(128, 128, 128, 0.4); 
+    border-bottom:1px solid rgba(128, 128, 128, 0.4);
+    cursor: pointer;
+  }
+
+  .show-emoji-btn-open{
+    color:  rgb(86,29,129, 0.7);
+    width: 10%;
+    font-weight:400;
+    font-size: 23px;
+    background: white;
+    border-top: none;
+    border-left:none;
+    border-right:1px solid rgba(128, 128, 128, 0.4); 
+    border-bottom:1px solid rgba(128, 128, 128, 0.4);
+    cursor: pointer;
+  }
+
+  .show-emoji-btn-open:hover{
+    color:  rgb(86,29,129, 0.9);
+   
+  }
+  
+  
+  .show-emoji-btn:hover{
+    color:  rgba(128, 128, 128, 0.8);
+  }
+
+  .emoji-picker{
+    position: absolute;
+    top: 185px;
+  }
+
+  .infodesk-comment-add-button:hover {
+    background: white;
+  }

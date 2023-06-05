@@ -1,0 +1,87 @@
+.all-selected-container{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+}
+
+.task-list-board{
+  display: flex;
+  justify-content: center;
+  height: 93%;
+}
+
+
+.all-tasks-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.task-list-container{
+    padding-left: 10px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(234, 234, 234, 0.6);
+    border-radius: 5px;
+    margin: 10px 5px;
+  }
+
+
+  .list-title-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .list-title{
+    font-size: 23px;
+    color:rgba(255, 255, 255, 0.7);
+    padding: 5px 0;
+    cursor: pointer;
+  }
+
+  .list-title:hover{
+    color: white;
+  }
+
+  .add-button{
+    background-color: rgba(234, 234, 234, 0);
+    color:rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease; 
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+  }
+
+  .add-button:hover{
+    color: white;
+  }
+
+  .task-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-y: scroll;
+  }
+
+  .droppable-placeholder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+  }
+
+    .tasks-by-status{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  

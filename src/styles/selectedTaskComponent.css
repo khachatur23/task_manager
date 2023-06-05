@@ -1,0 +1,170 @@
+.task-from-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+    margin: 10px 5px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    
+}
+
+.selected-task-info-table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .selected-task-info-tbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .selected-task-info-row{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(86,29,129);
+    
+  }
+  
+  .selected-task-info-value{
+      text-align: end;
+      width: 250px;
+      overflow-wrap: break-word; 
+  }
+  
+  .selected-task-info-title{
+    font-size: 23px;
+      font-weight: 700;
+  }
+  
+  .high-priority{
+      color: red;
+      font-weight: 700;
+    }
+  
+    .medium-priority{
+      color: orange;
+      font-weight: 700;
+    }
+  
+    .low-priority{
+      color:rgb(28, 209, 37);
+      font-weight: 700;
+    }
+
+    .selected-edit-btn{
+      margin: 20px 0;
+      background: rgba(52, 2, 91, 0.6);
+      border: none; 
+      color: white; 
+      padding: 10px 30px; 
+      font-size: 20px; 
+      cursor: pointer;
+      border-radius: 5px; 
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease; 
+      
+    }
+    
+    .selected-edit-btn:hover {
+      background: rgba(52, 2, 91, 0.8);
+    }
+    
+    .selected-delete-from-list{
+      margin: 20px 0;
+      background: rgba(255, 0, 0, 0.6);
+      border: none; 
+      color: white; 
+      padding: 10px 30px; 
+      font-size: 20px; 
+      cursor: pointer;
+      border-radius: 5px; 
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease; 
+    }
+    
+    .selected-delete-from-list:hover{
+      background-color: rgba(255, 0, 0, 0.8); 
+    }
+    
+    .selected-comment-container{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .selected-comment-div{
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    .selected-comment-inp{
+      margin: 5px 0;
+      width: 90%;
+      height: 100px;
+      padding: 5px;
+      outline: none;
+      font-size: 13px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: sans-serif;
+      resize: none;
+    }
+  
+    .selected-comment-add-button{
+      padding: 10px 20px;
+      margin: 10px 0;
+      background: white;
+      color: rgb(86,29,129);
+      font-size: 15px;
+      font-weight: 600;
+      border: none; 
+      cursor: pointer;
+      border-radius: 5px; 
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease; 
+    }
+  
+    .selected-disable-comment-add-button{
+      color: rgba(128, 128, 128, 0.4);
+      font-weight: 600;
+      padding: 10px 20px;
+      font-size: 15px;
+      margin: 10px 0;
+      background: white;
+      border: none; 
+      border-radius: 5px; 
+    }
+    
+    .selected-comment-add-button:hover {
+      background: white;
+    }
+  
+    .selected-approved-task{
+      color: rgb(28, 209, 37);
+      font-size: 30px;
+    }
+  
+    .selected-not-approved-task{
+      
+      color:rgb(182, 182, 182);
+      font-size: 30px;
+    }
+
+    .selected-task-comment-btn{
+      cursor: pointer;
+      color: rgba(86, 29, 129, 0.7);
+    }
+    
+    .selected-task-comment-btn:hover{
+      color: rgb(86,29,129);;
+    }

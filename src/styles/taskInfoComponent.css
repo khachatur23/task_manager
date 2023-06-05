@@ -1,0 +1,111 @@
+.task-info-container{
+  background-color: rgba(255, 255, 255);
+  width: 100%;
+  height: 85.5vh;
+  overflow-y: scroll;
+}
+
+.task-info-table{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.task-info-tbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.task-info-row{
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(86,29,129);
+}
+
+.task-info-btn-row{
+  margin: 10px 0;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(86,29,129);
+}
+
+.task-info-value{
+    text-align: end;
+    width: 250px;
+    overflow-wrap: break-word; 
+}
+
+.task-info-title{
+  font-size: 23px;
+    font-weight: 700;
+}
+
+.high-priority{
+    color: red;
+    font-weight: 700;
+  }
+
+  .medium-priority{
+    color: orange;
+    font-weight: 700;
+  }
+
+  .low-priority{
+    color:rgb(28, 209, 37);
+    font-weight: 700;
+  }
+
+  .info-desk-edit-btn{
+    margin: 20px 0;
+    background: rgba(52, 2, 91, 0.6);
+    border: none; 
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+    
+  }
+  
+  .info-desk-edit-btn:hover {
+    background: rgba(52, 2, 91, 0.8);
+  }
+  .github-link{
+    font-size: 23px;
+  }
+  
+  
+
+  .info-desk-delete-from-list{
+    margin: 20px 0;
+    background: rgba(255, 0, 0, 0.6);
+    border: none; 
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+  }
+  
+  .info-desk-delete-from-list:hover{
+    background-color: rgba(255, 0, 0, 0.8); 
+  }
+
+  .approved-infodesk-task{
+    color: rgb(28, 209, 37);
+    font-size: 30px;
+  }
+
+  .not-approved-infodesk-task{
+    color:rgb(182, 182, 182);
+    font-size: 30px;
+  }

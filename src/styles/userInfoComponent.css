@@ -1,0 +1,92 @@
+.user-info-form{
+  top: 100px;
+  left: 65%;
+  position: fixed;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px 20px 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.user-info-close-box{
+width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-info-close-btn{
+  border: none;
+  cursor: pointer;
+  color: #999999;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px; 
+  font-family: sans-serif; 
+}
+
+.user-info-close-btn:hover{
+  color:rgb(72, 72, 72);
+}
+
+
+
+  .user-info-avatar-row{
+    display: flex;
+    justify-content: center;
+    color: rgb(52, 2, 91);
+  }
+
+  .user-info-avatar{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+  }
+
+
+
+.user-info-table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info-form-row{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(52, 2, 91);
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+.user-info-btn-box{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.info-edit-logout-btn{
+    margin: 20px 0;
+    background: rgba(52, 2, 91, 0.6);
+    border: none; 
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+    
+  }
+  
+  .info-edit-logout-btn:hover {
+    background: rgba(52, 2, 91, 0.8);
+  }
+
+ 

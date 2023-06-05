@@ -1,0 +1,36 @@
+.selected-page-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.selected-container{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.selected-task-list{
+    display: flex;
+}
+
+.selected-task-column-list{
+  width: 50%;
+}
+
+
+.empty-list-message{
+  color: aliceblue;
+    text-align: center;
+  font-size: 16px; 
+  font-family: sans-serif; 
+    padding: 50px;
+   border:none;
+  }
+
+
+.empty-list-message-hidden{
+  width: 100%;
+}
+
+
